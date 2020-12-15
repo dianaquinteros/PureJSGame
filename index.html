@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+    <!-- By: Diana Quinteros G.
+         Date: 11/08/17 
+         Using only
+         SoloLearn's JavaScript Lessons
+         Hope you have fun!
+    -->
+        <title>Stop! Game</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="progress">Score</div>
+        <div id="finalScore"></div>
+        <table id ="scoreBoard">
+            <tr>
+              <th>Total</th>
+              <th>Points</th>
+            </tr>
+            <tr>
+              <td id="total">0</td>
+              <td id="points">0</td>
+            </tr>
+        </table>
+      
+        <div id="gameArea">
+            <button id="btn"
+                    onclick="stop()">Stop!
+            </button>
+        </div>
+        <button id="reset"
+         onclick="reset()" style=" display:none">Restart
+         </button>
+         
+         <footer>&copy; By Diana Quinteros G.</footer>
+
+         <script src="functions.js"></script>
+
+    </body>
+</html>
